@@ -9,6 +9,7 @@ YOLOv3 (You Only Look Once, version 3) is a real-time deep learning model for ob
 # Procedure
 
 1. Install the libraries
+2. Download the yolov3.weights file from this `https://pjreddie.com/media/files/yolov3.weights`
 2. Run `python yolo_opencv.py --image dog.jpg --config yolov3.cfg --weights yolov3.weights --classes yolov3.txt`
 3. Labelled output will be rendered
 4. Image will be saved as `object-detection.jpg`
